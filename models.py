@@ -1,4 +1,4 @@
-coding: utf8
+# coding: utf8
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
