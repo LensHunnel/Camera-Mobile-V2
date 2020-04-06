@@ -55,9 +55,9 @@ class Ultrason(object):
 
 
 class Motor(object):
-"""
-Model Motor permettant la gestion d'un moteur
-"""
+    """
+    Model Motor permettant la gestion d'un moteur
+    """
     def __init__(self, in1_pin, in2_pin):
         self.in1_pin = in1_pin
         self.in2_pin = in2_pin
