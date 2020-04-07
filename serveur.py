@@ -1,8 +1,7 @@
 # coding: utf8
 import web
+
 import models
-
-
 
 urls = (
     '/move', 'move',
@@ -32,15 +31,18 @@ class forward:
         else:
             print("movement non supporte")
         return 'OK'
-    
+
+
 class action:
     def GET(self):
         action = web.ctx.query.split('=')[1]
         if action == "1":
             models.u.getdistance()
-       else:
+        else:
             print("action non supportee")
+
         return 'OK'
+
 
 if __name__ == "__main__":
     app.run()
