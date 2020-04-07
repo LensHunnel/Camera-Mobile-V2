@@ -72,5 +72,8 @@ class Motor(object):
         GPIO.output(self.in2_pin, True)
     def stop(self):
         GPIO.output(self.in1_pin, False)
-        GPIO.output(self.in2_pin, False)
-
+        GPIO.output(self.in2_pin, False)      
+        
+u = Ultrason()
+m2 = Motor(right_in1_pin, right_in2_pin)
+m1 = Motor(left_in1_pin, left_in2_pin)
