@@ -10,7 +10,7 @@ urls = (
 app = web.application(urls, globals())
 
 
-class forward:
+class move:
     def GET(self):
         direction = web.ctx.query.split('=')[1]
         if direction.upper() == "F":
