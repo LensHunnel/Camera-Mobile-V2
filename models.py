@@ -9,8 +9,8 @@ right_in1_pin = 23
 right_in2_pin = 24
 
 # definition des GPIO que nous allons utiliser
-GPIO_TRIGGER = 15
-GPIO_ECHO = 14
+GPIO_TRIGGER = 25
+GPIO_ECHO = 18
 
 
 class Ultrason(object):
